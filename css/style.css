@@ -1,0 +1,66 @@
+body {
+    margin: auto;
+    width: 60%;
+    font-family: Verdana, Helvética, sans-serif;
+    color: #444;
+    background-image: linear-gradient(#E0EEC6, #7CA982);
+}
+
+#titulo {
+    background-color: #7CA982;
+    text-align: center;
+    font-size: 46px;
+    border-radius: 10px;
+}
+#objetivo {
+    background-color: lightgreen;
+    border-bottom: solid 3px black;
+}
+#experiencia {
+    background-color: lightgreen;
+    border-bottom: solid 3px black;
+}
+#formacao {
+    background-color: lightgreen;
+    border-bottom: solid 3px black;
+}
+#cursos {
+    background-color: lightgreen;
+    border-bottom: solid 3px black;
+}
+#objetivo, #experiencia, #formacao, #cursos {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.links {
+    text-decoration: none;
+    
+}
+
+.links:hover {
+    text-decoration: underline;
+    background-color:#7CA982 ;
+}
+.menu {
+    text-align: right;
+}
+.menu li {
+    display: inline-block;
+    margin: 10px;
+    background-color: #7CA982;
+    border-radius: 10px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+.menu a:hover {
+    background-color: #7CA982;
+}
